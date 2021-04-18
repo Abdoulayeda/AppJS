@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+/*
+var notes = [10,12,16,18,19]
+var moy=0
+for (let i=0; i<notes.length; i++){
+    moy = moy + notes[i]
+}
+console.log(moy / notes.length)
+*/
+
+/*
+function repete(phrase){
+    var compteur ={}
+    mots=phrase.toLowerCase().split(" ")
+    for(var i=0;i<=mots.length;i++){
+        mot = mots[i]
+        if(compteur[mot]){
+            compteur[mot]++
+        } else {
+            compteur[mot]=1
+        }
+        console.log(compteur)
+    }
+}
+*/
+
+var etudiant1={
+    nom:'Diao',
+    notes: [14,15,17,18]
+}
+var etudiant2={
+    nom:"Balde",
+    notes:[12,17,15,13]
+}
+
+function moyenne(notes){
+   var moy=20
+    for(var i =0; i<=notes.length;i++){
+  moy=moy +notes[i]
+    }
+ //   return moy / notes.length
+    return moy / 3
+}
+moyenne(etudiant1.notes)
+
+</script>
+</body>
+</html>
